@@ -1,0 +1,98 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+  background-color: #E6EFF6;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #FFFFFF;
+  color: gray;
+  border-radius: 10px;
+  margin: 5vw;
+  overflow: hidden;
+}
+
+.main-content{
+  padding: 1.5rem  3rem;
+}
+.main-content p {
+  opacity: .5;
+}
+
+h1{
+  color: #2BB3B1;
+}
+
+h2{
+  color: #BFDF32;
+}
+
+.sub-content{
+  color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flexbox1{
+  flex:1 0;
+  background-color: rgb(43, 179, 177);
+  padding: 1.5rem 3rem;
+}
+
+.flexbox2{
+  flex:1 0;
+  background-color: rgba(43, 179, 177, 0.8);
+  padding: 1.5rem 3rem;
+}
+
+.flexbox1 span{
+  display: inline-flex;
+}
+
+.flexbox1 span strong{
+  font-size: 2em;
+  margin-right: .4em;
+}
+
+.flexbox1 span p{
+  opacity: .5;
+  margin: 0;
+  margin-top: .7em;
+}
+
+header{
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+  margin-bottom: 3px;
+  opacity: .8;
+}
+
+button{
+  line-height: 3.5em;
+  width: 25vw;
+  background-color: #BFDF32;
+  margin: 1em 0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px .5px grey;
+}
