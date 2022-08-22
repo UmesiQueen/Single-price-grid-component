@@ -1,98 +1,153 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-body{
-  background-color: #E6EFF6;
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+:root {
+  --Grayish-Blue: rgb(152, 166, 189);
+  --White: rgb(255, 255, 255);
+  --Light-Gray: rgb(229, 239, 245);
+  --Bright-Yellow: rgb(192, 223, 52);
+  --Cyan: rgb(42, 178, 175);
+}
+
+* {
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
+}
+
+html {
   box-sizing: border-box;
 }
 
-main {
-  background-color: #FFFFFF;
-  color: gray;
+body {
+  background-color: var(--Light-Gray);
+  height: 100%;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  padding: 2em 0;
+}
+
+.main {
+  width: 21em;
   border-radius: 10px;
-  margin: 5vw;
   overflow: hidden;
+  margin: 0 auto 1em auto;
 }
 
-.main-content{
-  padding: 1.5rem  3rem;
-}
-.main-content p {
-  opacity: .5;
+.top-content {
+  background-color: var(--White);
+  padding: 2em 1.5em;
 }
 
-h1{
-  color: #2BB3B1;
+.top-content p {
+  color: var(--Grayish-Blue);
+  line-height: 1.8;
 }
 
-h2{
-  color: #BFDF32;
+h1 {
+  color: var(--Cyan);
+  font-size: 22px;
+  margin-bottom: 1.2em;
 }
 
-.sub-content{
-  color: #FFFFFF;
+h2 {
+  color: var(--Bright-Yellow);
+  font-size: 19px;
+  margin: 1.2em 0;
+}
+h4 {
+  font-size: 20px;
+  margin-bottom: 1.2em;
+}
+
+.bottom-content {
+  color: var(--White);
+}
+
+.flex-item {
+  padding: 1.5em;
+  background-color: var(--Cyan);
+}
+
+.price {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0.3em 0;
 }
 
-.flexbox1{
-  flex:1 0;
-  background-color: rgb(43, 179, 177);
-  padding: 1.5rem 3rem;
+.price span {
+  margin-left: 0.5em;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: lighter;
 }
 
-.flexbox2{
-  flex:1 0;
-  background-color: rgba(43, 179, 177, 0.8);
-  padding: 1.5rem 3rem;
+.item2 {
+  opacity: 0.8;
 }
 
-.flexbox1 span{
-  display: inline-flex;
-}
-
-.flexbox1 span strong{
-  font-size: 2em;
-  margin-right: .4em;
-}
-
-.flexbox1 span p{
-  opacity: .5;
-  margin: 0;
-  margin-top: .7em;
-}
-
-header{
-  margin-bottom: 1.5rem;
-  font-weight: bold;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li{
+.item2 li {
   list-style-type: none;
-  margin-bottom: 3px;
-  opacity: .8;
+  opacity: 0.8;
+  margin-top: 0.3em;
 }
 
-button{
-  line-height: 3.5em;
-  width: 25vw;
-  background-color: #BFDF32;
-  margin: 1em 0;
+.signUpBtn {
+  margin-top: auto;
+  padding: 1em;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: var(--Bright-Yellow);
   border: none;
   border-radius: 5px;
-  color: white;
   cursor: pointer;
-  box-shadow: 1px 1px .5px grey;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: rgb(62, 82, 163);
+}
+
+@media screen and (min-width: 376px) {
+  
+  body {
+     position: relative;
+    height: 100vh;
+  }
+
+  .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+  }
+
+  .main {
+    width: 40em;
+  }
+
+  .bottom-content {
+    display: flex;
+  }
+
+  .top-content,
+  .flex-item {
+    padding: 2em;
+  }
+
+  .flex-item {
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+  }
 }
