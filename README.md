@@ -4,7 +4,6 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -21,14 +20,10 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
-
-![](images/screenshot.png)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/single-card-grid-with-flex-ZN42yTeqcW)
+- Live Site URL: [Live site URL](https://umesiqueen.github.io/Single-price-grid-component/)
 
 ## My process
 
@@ -40,8 +35,7 @@ Users should be able to:
 
 
 ### What I learned
-This challenge introduced me to the css property, position.
-To achieve a centered card, i implemented positioning along side other related properties.
+To complete this challange I implemented the flex property and used media query to archieve a different layout on mobile view.
 
 ## Author
 
