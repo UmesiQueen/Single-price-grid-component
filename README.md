@@ -5,6 +5,7 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
+  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -20,10 +21,13 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
+### Screenshot
+  ![Alt text](images/Screenshot.png?raw=true "Optional Title")
+
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/single-card-grid-with-flex-ZN42yTeqcW)
-- Live Site URL: [Live site URL](https://umesiqueen.github.io/Single-price-grid-component/)
+- View Solution: [Click Here!](https://www.frontendmentor.io/solutions/single-card-grid-with-flex-ZN42yTeqcW)
+- View Live Site: [Click Here!](https://umesiqueen.github.io/Single-price-grid-component/)
 
 ## My process
 
